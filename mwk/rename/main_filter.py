@@ -27,6 +27,7 @@ async def rename_filter(c,m):
     button.append([InlineKeyboardButton("🎞️ Rename as Video 🎞️",callback_data="rename_video")])
     button.append([InlineKeyboardButton("🎞️ Convert to File 📂",callback_data="convert_file")])
     button.append([InlineKeyboardButton("📂 Convert to Video 🎞️",callback_data="convert_video")])
+    button.append([InlineKeyboardButton("Updates 📍",callback_data="update_channel")])
   button.append([InlineKeyboardButton("Cancel ❌",callback_data="cancel")])
  
   markup = InlineKeyboardMarkup(button)
