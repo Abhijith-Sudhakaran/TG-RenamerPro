@@ -25,9 +25,9 @@ async def start_msg(c,m):
     button = [
                [
                 InlineKeyboardButton(
-                        "⚙ Updates ", url=f"https://t.me/IamCatX"),
+                        "⚙ Updates ", url=f"https://t.me/CatBotzUpdates"),
                     InlineKeyboardButton(
-                        "🛠 Support ", url=f"https://t.me/GEETHUBOTUPDATES")
+                        "🛠 Support ", url=f"https://t.me/CatBotzChat")
                 ],[
                     InlineKeyboardButton(
                         "👻 Creator", url=f"https://t.me/Telecat_X")
