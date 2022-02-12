@@ -1,5 +1,7 @@
+
+
 class Translation(object):
-    START_TEXT = """**Hello dear {message.from_user.mention()} ,
+    START_TEXT = """**Hello dear {message.from_user} ,
 This is a File Rename Bot by @Telecat_X 😇
 
 Please send me any File, i can Rename It As Per Your choices to telegram as File/Video
